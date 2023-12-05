@@ -7,10 +7,3 @@ def delete_at(my_list=[], idx=0):
         if i != idx:
             result_list.append(my_list[i])
     return result_list
-
-
-
-original_list = [1, 2, 3, 4, 5]
-index_to_delete = 2
-result = delete_at(original_list, index_to_delete)
-print(result)
