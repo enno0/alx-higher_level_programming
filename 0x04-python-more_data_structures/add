@@ -1,0 +1,4 @@
+chmod u+x *.py
+git add .
+git commit -m springboot_mysql
+git push
